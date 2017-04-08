@@ -6,15 +6,19 @@
     <div id="ErrorDiv" runat="server" style="color: red; text-decoration: solid">
 
     </div>
+    <div><h3>System information</h3></div>
     <div>
         <asp:Label ID="lblIs64Bit" runat="server"></asp:Label>
     </div>
     <div>
-        <asp:Label ID="lblMemoryFillAmount" runat="server"></asp:Label>
-    </div>
-    <div>
         <asp:Label ID="lblIISVersion" runat="server"></asp:Label>
     </div>
+    
+    <div><h3>Memory Cache information</h3></div>
+    <div>
+        <asp:Label ID="lblMemoryFillAmount" runat="server"></asp:Label>
+    </div>
+
     <div>
         <asp:Label ID="lblItemsInCache" runat="server"></asp:Label>
     </div>
